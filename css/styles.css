@@ -578,9 +578,9 @@ footer .social-list {
   line-height: 1.5;
 }
 
-.project-thumb:hover::before,
+.project-list-item:hover .project-thumb::before,
 .project-list-item .link:focus .project-thumb::before,
-.project-thumb:hover .overlay-text,
+.project-list-item:hover .overlay-text,
 .project-list-item .link:focus .overlay-text {
   transform: translateY(0%);
   opacity: 1;
